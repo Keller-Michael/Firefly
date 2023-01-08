@@ -8,6 +8,17 @@ Sounds esotheric? Absolutely and therefore a nice change of pace. I read about t
 
 ## Implementation in ABAP
 
-I wrote an executable class on SAP Business Technology Platform ABAP environment (Steampunk), keeping things as simple as possible. Output is done via console.
+I wrote an [executable class](./src/zcl_mke_firefly.clas.abap) on SAP Business Technology Platform ABAP environment (Steampunk), keeping things as simple as possible. Output is done via console. Firefly is starting from position 3/3 (C3).
 
+## Example
+
+Input commands "1SS2S3W2E4E" leads to following console output in the end:
+
+| A | B | C | D | E |
+|:-:|:-:|:-:|:-:|:-:|
+| " | 3 | 2 | 4 | " |
+| " | " | " | " | " |
+| " | " | " | " | " |
+| " | " | 1 | " | " |
+| " | " | 1 | " | " |
 
